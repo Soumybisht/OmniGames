@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Russo+One&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    z-index: 1000;
+    width: 100%;
+    background-color: #1b181c;
+}
+.logo img{
+    height: 70px;
+    width: 300px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+.links a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    letter-spacing: 2.7px;
+    font-family: "Teko";
+    padding:7px;
+    padding-left: 10px;
+    padding-right: 35px;
+    font-weight: 500;
+}
+.links li{
+    list-style-type: none;
+}
+.links a:hover{
+    background-color:#ec0057;
+}
+.container-1
+{
+    width:100%;
+    height:100vh;
+    background-image: url("images/try-out.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.heading{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    height: 250px;
+}
+.sub-heading{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Teko";
+    font-size: 25px;
+    letter-spacing: 28px;
+    
+    color: rgb(244, 7, 106);
+}
+.first{
+    margin: 0;
+    padding: 0;
+    height: 170px;
+    width: 590px;
+}
+ .second{
+    height: 520px;
+    width: 50%;
+    margin-right: 50px;
+}
+.divider{
+    width: 100%;
+    height: 13px;
+    background-color: rgb(84, 9, 9);
+}
+.container-2
+{
+    width:100%;
+    height:110vh;
+    background-image: url("images/ttten3.svg");
+    background-color: #1b181c;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    padding-bottom: 10px;
+}
+.contest-heading{
+    border: 1px dashed white;
+    border-width: 2px;
+    border-radius: 7px;
+    background-color: #121212;
+    font-size: 70px;
+    margin-top: 70px;
+    letter-spacing: 12px;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 180px;
+    font-family: Teko;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 70%;
+    height: 260px;
+    background-color: #292828;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.COD-image{
+    width: 22%;
+    height: 230px;
+    padding: 0 10px;
+}
+.contest-middle-box{
+    display: flex;
+    height: 230px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 56%;
+}
+.card-heading{
+    font-size: 28px;
+}
+.start-time{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width:90%;
+}
+.time-item{
+    background-color: #ec0057;
+    border-radius: 10px;
+    font-weight: 530;
+    font-size: 14px;
+    width: 45%;
+    height: 30px;
+
+}
+.hr-line{
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: white;
+
+}
+.bottom-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 21%;
+    background-color: #292828;
+    border: 1px solid #ff5f9e;
+}
+.items span{
+    font-size: 14px;
+    color: #ff5f9e;
+}
+.join-box{
+    width: 22%;
+    display: flex;
+    height: 230px;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #ec0057;
+}
+.prize{
+    font-size: 20px;
+    font-weight: 500;
+}
+.fiveX{
+    font-size: 60px;
+    font: 700;
+}
+.join-btn{
+    width: 60%;
+    height: 50px;
+    border: none;
+    background-color: rgb(247, 120, 1);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.join-btn:hover{
+    background-color: rgb(252, 138, 30);
+    box-shadow: 0.5px 0.5px 10px rgb(247, 243, 6);
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+
+.container-3{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-image: url("images/LeaderBoard2.png");
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+.leaderboard{
+    position: relative;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+    height: 700px;
+    width: 50%;
+
+}
+.board-heading{
+    position: relative;
+    font-family: 'chakra petch', arial;
+    font-weight: 600;
+    left: 80px;
+    font-size: 45px;
+    width: 80%;
+}
+.board-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    font-size: 30px;
+}
+.player-img{
+    height: 80px;
+    width: 80px;
+}
+.lboard-text{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+.board-item p{
+    color: #ec0057;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: Teko;
+}
+.amount{
+    color: rgb(242, 242, 18);
+    font-style: italic;
+}
+.board-item:hover{
+    transform: scale(103%,103%);
+    box-shadow: 0.7px 0.7px 20px black;
+    background-color: #ec0057;
+    background-image: linear-gradient(to bottom, #ec0057 60%, #9e033c);
+}
+.board-item:hover p{
+    color: white;
+}
+.container-4
+{
+    width:100%;
+    height:90vh;
+    background-image: url("images/bg4.svg");
+    background-color: #1b181c;
+    background-attachment: fixed;
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    background-color: #100e10;
+    border: 2px solid #ec0057;
+    border-radius: 10px;
+}
+.discord{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+}
+.discord-img{
+    height: 170px;
+    width: 170px;
+}
+.disc-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100px;
+    font-family:'chakra petch', arial ;
+    width: 100%;
+}
+.disc-head-text{
+    font-size: 34px;
+    position: relative;
+    bottom: 50px;
+    font-weight: 700;
+}
+.disc-sub-text{
+    letter-spacing: 2px;
+    color: #ec0057;
+    position: relative;
+    bottom: 40px;
+}
+.disc-btn{
+    position: relative;
+    bottom: 10px;
+    width: 80%;
+    height: 55px;
+    background-color: #ec0057;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.QR{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+}
+.QR-text{
+    font-size: 37px;
+    font-family:'chakra petch', arial;
+    font-weight: 700;
+}
+.QR-img{
+    height: 250px;
+    width: 250px;
+}
+.disc-btn:hover{
+    box-shadow: 0.5px 0.5px 10px #ff5f9e;
+    cursor: pointer;
+}
+.vertical-line{
+    height: 80%;
+    width: 1px;
+    background-color: white;
+}
+.outer-container{
+    width: 100%;
+    overflow: hidden;
+}
